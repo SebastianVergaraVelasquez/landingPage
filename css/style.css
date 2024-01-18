@@ -213,7 +213,7 @@ section .content{
     }
 }
 
-@media (max-width:440px){
+@media (max-width:350px){
     .links{
         display: none;
     }

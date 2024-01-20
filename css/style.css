@@ -97,7 +97,7 @@ nav{
 }
 
 .links-contenedor{
-    margin-left: 900px;
+    
     position: fixed;
     background: #635e5c00;
     display: flex;
@@ -212,6 +212,13 @@ section .content{
 @media (min-width:884px){
     .content .image img{
         min-width: 500px;
+        position: relative;
+        z-index: 5;
+    }
+    .links-contenedor{
+        display: flex;
+        align-items: center;
+        margin-left: 800px;
     }
 }
 
@@ -221,6 +228,8 @@ section .content{
     }
 
     .image img{
+        position: relative;
+        z-index: 5;
         width: 50px;
         margin-right: none;
     }
